@@ -1,0 +1,7 @@
+<?php 
+	//asdasd
+
+	/* adasdasd
+	adasdasd
+	*/
+?>

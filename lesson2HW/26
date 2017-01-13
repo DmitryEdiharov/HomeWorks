@@ -1,0 +1,4 @@
+<?php
+	const MONTH = 12;
+	define("DAYS", 31);
+?>
