@@ -15,21 +15,6 @@
 
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
-    <?php
-    function getCommonWords(string $a, string $b): array{
-        $separator = ' ';
-        $array1 = explode($separator, $a);
-        $array2 = explode($separator, $b);
-        $rezult = [];
-        for ($i = 0; $i<count($array1); $i++){
-            if ( (in_array($array2, $array1[i])) && !isset($rezult[$array1[i]])){
-                $rezult[] = $array1[i];
-            }
-        }
-
-        return $rezult;
-    }
-    ?>
 
 </body>
 

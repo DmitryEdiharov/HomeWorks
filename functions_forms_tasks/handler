@@ -16,6 +16,7 @@ function parseData($request){
         'email' => $request['email'] ?? '',
         'comment' => $request['text'] ?? ''
     ];
+    return $dataArray;
 }
 
 

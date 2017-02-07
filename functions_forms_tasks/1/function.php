@@ -7,7 +7,7 @@
  */
 if (!empty($_POST)){
     foreach (getCommonWords($_POST['a'], $_POST['b']) as $item) {
-        echo "<p> &item</p>";
+        echo "<p>&item</p>";
     };
 }
 
