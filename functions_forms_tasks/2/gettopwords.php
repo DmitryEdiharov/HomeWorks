@@ -6,6 +6,13 @@
  * Time: 12:56
  */
 
+if (!isset($_POST['a'])) {
+	foreach (getTopWords($_POST['a'], " ") as $item) {
+		echo $item;
+	}	
+}
+
+
 function getTopWords(string $str, string $separator){
     $array =explode($separator, $str);
     $rezult = [];
